@@ -1,5 +1,6 @@
 # GNN-Sensitive-Attribute-Leakage
-Mitigating regional/sensitive attribute leakage in Graph Neural Networks using PyTorch Geometric
+Mitigating regional/sensitive attribute leakage in Graph Neural Networks using PyTorch Geometric. 
+Source: https://github.com/yuwvandy/FairVGNN
 
 ## 📁 Dataset Quickstart
 
