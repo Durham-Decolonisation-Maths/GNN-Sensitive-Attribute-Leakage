@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helpers"
+version = "0.2.0"
+description = "Plotting and metrics helpers for the CDEI bias-mitigation workshop notebooks"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "plotly",
+    "scikit-learn",
+    "fairlearn",
+]
+
+[tool.setuptools]
+packages = ["helpers"]
