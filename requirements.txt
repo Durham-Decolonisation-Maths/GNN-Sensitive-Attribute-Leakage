@@ -5,17 +5,10 @@
 # require the separate torch-scatter / torch-sparse packages for CPU use,
 # so a plain `pip install` is enough -- no custom wheel index needed.
 #
-# fairlearn, scikit-learn and joblib are only needed for agarwal.ipynb (a
-# convenience copy of the tabular reductions notebook from CDEI-Bias-Mitigation).
-#
--e ./helpers
 
-fairlearn
-joblib
 jupyter
 matplotlib
 numpy
 pandas
-scikit-learn
 torch
 torch_geometric
